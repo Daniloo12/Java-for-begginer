@@ -10,9 +10,14 @@ public class Meal {
     }
 
     //Instance methods//
-    /* Complete the method makeItACombo */
+    public void makeItACombo() {
+        name += " " + "with fries and soda";
+        cost += 3;
+    }
+
+    public String getBill() {
+        String frase = name + "," + " " + "$" + cost;
+        return frase;
+    }
+
 }
-
-/* Complete the method getBill */}
-
-        }
